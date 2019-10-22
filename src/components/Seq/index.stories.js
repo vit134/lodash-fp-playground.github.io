@@ -5,12 +5,15 @@ export default { title: 'Seq' };
 
 
 export const lodash = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='lodash'
-      title='lodash'
-      codeSource={source}
+      method="lodash"
+      title="lodash"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["lodash"]}
       description="Creates a lodash object which wraps value to enable implicit method chain sequences. Methods that operate on and return arrays, collections, and functions can be chained together. Methods that retrieve a single value or may return a primitive value will automatically end the chain sequence and return the unwrapped value. Otherwise, the value must be unwrapped with _#value.
 
@@ -45,12 +48,15 @@ add, attempt, camelCase, capitalize, ceil, clamp, clone, cloneDeep, cloneDeepWit
 };
 
 export const chain = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='chain'
-      title='chain'
-      codeSource={source}
+      method="chain"
+      title="chain"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["chain"]}
       description="Creates a lodash wrapper instance that wraps value with explicit method chain sequences enabled. The result of such sequences must be unwrapped with _#value."
       args={["value (*): The value to wrap."]}
@@ -60,12 +66,15 @@ export const chain = () => {
 };
 
 export const tap = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='tap'
-      title='tap'
-      codeSource={source}
+      method="tap"
+      title="tap"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["tap"]}
       description="This method invokes interceptor and returns value. The interceptor is invoked with one argument; (value). The purpose of this method is to &quot;tap into&quot; a method chain sequence in order to modify intermediate results."
       args={["value (*): The value to provide to interceptor.","interceptor (Function): The function to invoke."]}
@@ -75,12 +84,15 @@ export const tap = () => {
 };
 
 export const thru = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='thru'
-      title='thru'
-      codeSource={source}
+      method="thru"
+      title="thru"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["thru"]}
       description="This method is like _.tap except that it returns the result of interceptor. The purpose of this method is to &quot;pass thru&quot; values replacing intermediate results in a method chain sequence."
       args={["value (*): The value to provide to interceptor.","interceptor (Function): The function to invoke."]}
@@ -90,12 +102,15 @@ export const thru = () => {
 };
 
 export const prototypeSymbolIterator = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-Symbol-iterator'
-      title='prototype-Symbol-iterator'
-      codeSource={source}
+      method="prototype-Symbol-iterator"
+      title="prototype-Symbol-iterator"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-Symbol-iterator"]}
       description="Enables the wrapper to be iterable."
       args={[]}
@@ -105,12 +120,15 @@ export const prototypeSymbolIterator = () => {
 };
 
 export const prototypeAt = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-at'
-      title='prototype-at'
-      codeSource={source}
+      method="prototype-at"
+      title="prototype-at"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-at"]}
       description="This method is the wrapper version of _.at."
       args={["[paths] (...(string|string[])): The property paths to pick."]}
@@ -120,12 +138,15 @@ export const prototypeAt = () => {
 };
 
 export const prototypeChain = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-chain'
-      title='prototype-chain'
-      codeSource={source}
+      method="prototype-chain"
+      title="prototype-chain"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-chain"]}
       description="Creates a lodash wrapper instance with explicit method chain sequences enabled."
       args={[]}
@@ -135,12 +156,15 @@ export const prototypeChain = () => {
 };
 
 export const prototypeCommit = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-commit'
-      title='prototype-commit'
-      codeSource={source}
+      method="prototype-commit"
+      title="prototype-commit"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-commit"]}
       description="Executes the chain sequence and returns the wrapped result."
       args={[]}
@@ -150,12 +174,15 @@ export const prototypeCommit = () => {
 };
 
 export const prototypeNext = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-next'
-      title='prototype-next'
-      codeSource={source}
+      method="prototype-next"
+      title="prototype-next"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-next"]}
       description="Gets the next value on a wrapped object following the iterator protocol."
       args={[]}
@@ -165,12 +192,15 @@ export const prototypeNext = () => {
 };
 
 export const prototypePlant = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-plant'
-      title='prototype-plant'
-      codeSource={source}
+      method="prototype-plant"
+      title="prototype-plant"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-plant"]}
       description="Creates a clone of the chain sequence planting value as the wrapped value."
       args={["value (*): The value to plant."]}
@@ -180,12 +210,15 @@ export const prototypePlant = () => {
 };
 
 export const prototypeReverse = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-reverse'
-      title='prototype-reverse'
-      codeSource={source}
+      method="prototype-reverse"
+      title="prototype-reverse"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-reverse"]}
       description="This method is the wrapper version of _.reverse.
 
@@ -197,12 +230,15 @@ Note: This method mutates the wrapped array."
 };
 
 export const prototypeValue = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='prototype-value'
-      title='prototype-value'
-      codeSource={source}
+      method="prototype-value"
+      title="prototype-value"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["prototype-value"]}
       description="Executes the chain sequence to resolve the unwrapped value."
       args={[]}

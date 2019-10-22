@@ -6,7 +6,7 @@ addParameters({
     showPanel: false,
     theme: {
       ...themes.normal,
-      fontBase: '"Roboto", sans-serif',
+      fontBase: '"Roboto Condensed", sans-serif',
     },
   },
 });

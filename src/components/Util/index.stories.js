@@ -5,12 +5,15 @@ export default { title: 'Util' };
 
 
 export const attempt = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='attempt'
-      title='attempt'
-      codeSource={source}
+      method="attempt"
+      title="attempt"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["attempt"]}
       description="Attempts to invoke func, returning either the result or the caught error object. Any additional arguments are provided to func when it&#39;s invoked."
       args={["func (Function): The function to attempt.","[args] (...*): The arguments to invoke func with."]}
@@ -20,12 +23,15 @@ export const attempt = () => {
 };
 
 export const bindAll = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='bindAll'
-      title='bindAll'
-      codeSource={source}
+      method="bindAll"
+      title="bindAll"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["bindAll"]}
       description="Binds methods of an object to the object itself, overwriting the existing method.
 
@@ -37,12 +43,15 @@ Note: This method doesn&#39;t set the &quot;length&quot; property of bound funct
 };
 
 export const cond = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='cond'
-      title='cond'
-      codeSource={source}
+      method="cond"
+      title="cond"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["cond"]}
       description="Creates a function that iterates over pairs and invokes the corresponding function of the first predicate to return truthy. The predicate-function pairs are invoked with the this binding and arguments of the created function."
       args={["pairs (Array): The predicate-function pairs."]}
@@ -52,12 +61,15 @@ export const cond = () => {
 };
 
 export const conforms = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='conforms'
-      title='conforms'
-      codeSource={source}
+      method="conforms"
+      title="conforms"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["conforms"]}
       description="Creates a function that invokes the predicate properties of source with the corresponding property values of a given object, returning true if all predicates return truthy, else false.
 
@@ -69,12 +81,15 @@ Note: The created function is equivalent to _.conformsTo with source partially a
 };
 
 export const constant = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='constant'
-      title='constant'
-      codeSource={source}
+      method="constant"
+      title="constant"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["constant"]}
       description="Creates a function that returns value."
       args={["value (*): The value to return from the new function."]}
@@ -84,12 +99,15 @@ export const constant = () => {
 };
 
 export const defaultTo = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='defaultTo'
-      title='defaultTo'
-      codeSource={source}
+      method="defaultTo"
+      title="defaultTo"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["defaultTo"]}
       description="Checks value to determine whether a default value should be returned in its place. The defaultValue is returned if value is NaN, null, or undefined."
       args={["value (*): The value to check.","defaultValue (*): The default value."]}
@@ -99,12 +117,15 @@ export const defaultTo = () => {
 };
 
 export const flow = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='flow'
-      title='flow'
-      codeSource={source}
+      method="flow"
+      title="flow"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["flow"]}
       description="Creates a function that returns the result of invoking the given functions with the this binding of the created function, where each successive invocation is supplied the return value of the previous."
       args={["[funcs] (...(Function|Function[])): The functions to invoke."]}
@@ -114,12 +135,15 @@ export const flow = () => {
 };
 
 export const flowRight = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='flowRight'
-      title='flowRight'
-      codeSource={source}
+      method="flowRight"
+      title="flowRight"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["flowRight"]}
       description="This method is like _.flow except that it creates a function that invokes the given functions from right to left."
       args={["[funcs] (...(Function|Function[])): The functions to invoke."]}
@@ -129,12 +153,15 @@ export const flowRight = () => {
 };
 
 export const identity = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='identity'
-      title='identity'
-      codeSource={source}
+      method="identity"
+      title="identity"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["identity"]}
       description="This method returns the first argument it receives."
       args={["value (*): Any value."]}
@@ -144,12 +171,15 @@ export const identity = () => {
 };
 
 export const iteratee = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='iteratee'
-      title='iteratee'
-      codeSource={source}
+      method="iteratee"
+      title="iteratee"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["iteratee"]}
       description="Creates a function that invokes func with the arguments of the created function. If func is a property name, the created function returns the property value for a given element. If func is an array or object, the created function returns true for elements that contain the equivalent source properties, otherwise it returns false."
       args={["[func=_.identity] (*): The value to convert to a callback."]}
@@ -159,12 +189,15 @@ export const iteratee = () => {
 };
 
 export const matches = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='matches'
-      title='matches'
-      codeSource={source}
+      method="matches"
+      title="matches"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["matches"]}
       description="Creates a function that performs a partial deep comparison between a given object and source, returning true if the given object has equivalent property values, else false.
 
@@ -178,12 +211,15 @@ Partial comparisons will match empty array and empty object source values agains
 };
 
 export const matchesProperty = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='matchesProperty'
-      title='matchesProperty'
-      codeSource={source}
+      method="matchesProperty"
+      title="matchesProperty"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["matchesProperty"]}
       description="Creates a function that performs a partial deep comparison between the value at path of a given object to srcValue, returning true if the object value is equivalent, else false.
 
@@ -195,12 +231,15 @@ Note: Partial comparisons will match empty array and empty object srcValue value
 };
 
 export const method = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='method'
-      title='method'
-      codeSource={source}
+      method="method"
+      title="method"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["method"]}
       description="Creates a function that invokes the method at path of a given object. Any additional arguments are provided to the invoked method."
       args={["path (Array|string): The path of the method to invoke.","[args] (...*): The arguments to invoke the method with."]}
@@ -210,12 +249,15 @@ export const method = () => {
 };
 
 export const methodOf = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='methodOf'
-      title='methodOf'
-      codeSource={source}
+      method="methodOf"
+      title="methodOf"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["methodOf"]}
       description="The opposite of _.method; this method creates a function that invokes the method at a given path of object. Any additional arguments are provided to the invoked method."
       args={["object (Object): The object to query.","[args] (...*): The arguments to invoke the method with."]}
@@ -225,12 +267,15 @@ export const methodOf = () => {
 };
 
 export const mixin = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='mixin'
-      title='mixin'
-      codeSource={source}
+      method="mixin"
+      title="mixin"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["mixin"]}
       description="Adds all own enumerable string keyed function properties of a source object to the destination object. If object is a function, then methods are added to its prototype as well.
 
@@ -242,12 +287,15 @@ Note: Use _.runInContext to create a pristine lodash function to avoid conflicts
 };
 
 export const noConflict = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='noConflict'
-      title='noConflict'
-      codeSource={source}
+      method="noConflict"
+      title="noConflict"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["noConflict"]}
       description="Reverts the _ variable to its previous value and returns a reference to the lodash function."
       args={[]}
@@ -257,12 +305,15 @@ export const noConflict = () => {
 };
 
 export const noop = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='noop'
-      title='noop'
-      codeSource={source}
+      method="noop"
+      title="noop"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["noop"]}
       description="This method returns undefined."
       args={[]}
@@ -272,12 +323,15 @@ export const noop = () => {
 };
 
 export const nthArg = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='nthArg'
-      title='nthArg'
-      codeSource={source}
+      method="nthArg"
+      title="nthArg"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["nthArg"]}
       description="Creates a function that gets the argument at index n. If n is negative, the nth argument from the end is returned."
       args={["[n=0] (number): The index of the argument to return."]}
@@ -287,12 +341,15 @@ export const nthArg = () => {
 };
 
 export const over = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='over'
-      title='over'
-      codeSource={source}
+      method="over"
+      title="over"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["over"]}
       description="Creates a function that invokes iteratees with the arguments it receives and returns their results."
       args={["[iteratees=[_.identity]] (...(Function|Function[])): The iteratees to invoke."]}
@@ -302,12 +359,15 @@ export const over = () => {
 };
 
 export const overEvery = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='overEvery'
-      title='overEvery'
-      codeSource={source}
+      method="overEvery"
+      title="overEvery"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["overEvery"]}
       description="Creates a function that checks if all of the predicates return truthy when invoked with the arguments it receives."
       args={["[predicates=[_.identity]] (...(Function|Function[])): The predicates to check."]}
@@ -317,12 +377,15 @@ export const overEvery = () => {
 };
 
 export const overSome = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='overSome'
-      title='overSome'
-      codeSource={source}
+      method="overSome"
+      title="overSome"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["overSome"]}
       description="Creates a function that checks if any of the predicates return truthy when invoked with the arguments it receives."
       args={["[predicates=[_.identity]] (...(Function|Function[])): The predicates to check."]}
@@ -332,12 +395,15 @@ export const overSome = () => {
 };
 
 export const property = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='property'
-      title='property'
-      codeSource={source}
+      method="property"
+      title="property"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["property"]}
       description="Creates a function that returns the value at path of a given object."
       args={["path (Array|string): The path of the property to get."]}
@@ -347,12 +413,15 @@ export const property = () => {
 };
 
 export const propertyOf = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='propertyOf'
-      title='propertyOf'
-      codeSource={source}
+      method="propertyOf"
+      title="propertyOf"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["propertyOf"]}
       description="The opposite of _.property; this method creates a function that returns the value at a given path of object."
       args={["object (Object): The object to query."]}
@@ -362,12 +431,15 @@ export const propertyOf = () => {
 };
 
 export const range = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='range'
-      title='range'
-      codeSource={source}
+      method="range"
+      title="range"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["range"]}
       description="Creates an array of numbers (positive and/or negative) progressing from start up to, but not including, end. A step of -1 is used if a negative start is specified without an end or step. If end is not specified, it&#39;s set to start with start then set to 0.
 
@@ -379,12 +451,15 @@ Note: JavaScript follows the IEEE-754 standard for resolving floating-point valu
 };
 
 export const rangeRight = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='rangeRight'
-      title='rangeRight'
-      codeSource={source}
+      method="rangeRight"
+      title="rangeRight"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["rangeRight"]}
       description="This method is like _.range except that it populates values in descending order."
       args={["[start=0] (number): The start of the range.","end (number): The end of the range.","[step=1] (number): The value to increment or decrement by."]}
@@ -394,12 +469,15 @@ export const rangeRight = () => {
 };
 
 export const runInContext = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='runInContext'
-      title='runInContext'
-      codeSource={source}
+      method="runInContext"
+      title="runInContext"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["runInContext"]}
       description="Create a new pristine lodash function using the context object."
       args={["[context=root] (Object): The context object."]}
@@ -409,12 +487,15 @@ export const runInContext = () => {
 };
 
 export const stubArray = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='stubArray'
-      title='stubArray'
-      codeSource={source}
+      method="stubArray"
+      title="stubArray"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["stubArray"]}
       description="This method returns a new empty array."
       args={[]}
@@ -424,12 +505,15 @@ export const stubArray = () => {
 };
 
 export const stubFalse = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='stubFalse'
-      title='stubFalse'
-      codeSource={source}
+      method="stubFalse"
+      title="stubFalse"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["stubFalse"]}
       description="This method returns false."
       args={[]}
@@ -439,12 +523,15 @@ export const stubFalse = () => {
 };
 
 export const stubObject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='stubObject'
-      title='stubObject'
-      codeSource={source}
+      method="stubObject"
+      title="stubObject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["stubObject"]}
       description="This method returns a new empty object."
       args={[]}
@@ -454,12 +541,15 @@ export const stubObject = () => {
 };
 
 export const stubString = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='stubString'
-      title='stubString'
-      codeSource={source}
+      method="stubString"
+      title="stubString"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["stubString"]}
       description="This method returns an empty string."
       args={[]}
@@ -469,12 +559,15 @@ export const stubString = () => {
 };
 
 export const stubTrue = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='stubTrue'
-      title='stubTrue'
-      codeSource={source}
+      method="stubTrue"
+      title="stubTrue"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["stubTrue"]}
       description="This method returns true."
       args={[]}
@@ -484,12 +577,15 @@ export const stubTrue = () => {
 };
 
 export const times = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='times'
-      title='times'
-      codeSource={source}
+      method="times"
+      title="times"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["times"]}
       description="Invokes the iteratee n times, returning an array of the results of each invocation. The iteratee is invoked with one argument; (index)."
       args={["n (number): The number of times to invoke iteratee.","[iteratee=_.identity] (Function): The function invoked per iteration."]}
@@ -499,12 +595,15 @@ export const times = () => {
 };
 
 export const toPath = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toPath'
-      title='toPath'
-      codeSource={source}
+      method="toPath"
+      title="toPath"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toPath"]}
       description="Converts value to a property path array."
       args={["value (*): The value to convert."]}
@@ -514,12 +613,15 @@ export const toPath = () => {
 };
 
 export const uniqueId = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='uniqueId'
-      title='uniqueId'
-      codeSource={source}
+      method="uniqueId"
+      title="uniqueId"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["uniqueId"]}
       description="Generates a unique ID. If prefix is given, the ID is appended to it."
       args={["[prefix=''] (string): The value to prefix the ID with."]}

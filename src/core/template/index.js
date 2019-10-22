@@ -8,7 +8,8 @@ export const Template = ({
   description,
   args,
   returns,
-  codeSource,
+  lodashSource,
+  fpSource,
   dependencies
 }) => {
   const preamble = dependencies.map(el => {
@@ -39,9 +40,19 @@ export const Template = ({
           {returns}
         </div>
       </div>
-      {codeSource && (
-        <div className='row code-source'>
-          <Embed source={ codeSource } preamble={preamble} />
+      {lodashSource || fpSource && (
+        <div className="row">
+          <h4>Example</h4>
+          <div className="code-source">
+            <div className="code-source-column">
+              <div>lodash</div>
+              <Embed source={lodashSource} preamble={preamble} />
+            </div>
+            <div className="code-source-column">
+              <div>fp</div>
+              <Embed source={fpSource} preamble={preamble} />
+            </div>
+          </div>
         </div>
       )}
     </div>

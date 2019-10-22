@@ -5,12 +5,15 @@ export default { title: 'Collection' };
 
 
 export const countBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='countBy'
-      title='countBy'
-      codeSource={source}
+      method="countBy"
+      title="countBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["countBy"]}
       description="Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The corresponding value of each key is the number of times the key was returned by iteratee. The iteratee is invoked with one argument: (value)."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The iteratee to transform keys."]}
@@ -20,12 +23,15 @@ export const countBy = () => {
 };
 
 export const every = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='every'
-      title='every'
-      codeSource={source}
+      method="every"
+      title="every"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["every"]}
       description="Checks if predicate returns truthy for all elements of collection. Iteration is stopped once predicate returns falsey. The predicate is invoked with three arguments: (value, index|key, collection).
 
@@ -37,12 +43,15 @@ Note: This method returns true for empty collections because everything is true 
 };
 
 export const filter = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='filter'
-      title='filter'
-      codeSource={source}
+      method="filter"
+      title="filter"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["filter"]}
       description="Iterates over elements of collection, returning an array of all elements predicate returns truthy for. The predicate is invoked with three arguments: (value, index|key, collection).
 
@@ -54,12 +63,15 @@ Note: Unlike _.remove, this method returns a new array."
 };
 
 export const find = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='find'
-      title='find'
-      codeSource={source}
+      method="find"
+      title="find"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["find"]}
       description="Iterates over elements of collection, returning the first element predicate returns truthy for. The predicate is invoked with three arguments: (value, index|key, collection)."
       args={["collection (Array|Object): The collection to inspect.","[predicate=_.identity] (Function): The function invoked per iteration.","[fromIndex=0] (number): The index to search from."]}
@@ -69,12 +81,15 @@ export const find = () => {
 };
 
 export const findLast = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='findLast'
-      title='findLast'
-      codeSource={source}
+      method="findLast"
+      title="findLast"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["findLast"]}
       description="This method is like _.find except that it iterates over elements of collection from right to left."
       args={["collection (Array|Object): The collection to inspect.","[predicate=_.identity] (Function): The function invoked per iteration.","[fromIndex=collection.length-1] (number): The index to search from."]}
@@ -84,12 +99,15 @@ export const findLast = () => {
 };
 
 export const flatMap = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='flatMap'
-      title='flatMap'
-      codeSource={source}
+      method="flatMap"
+      title="flatMap"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["flatMap"]}
       description="Creates a flattened array of values by running each element in collection thru iteratee and flattening the mapped results. The iteratee is invoked with three arguments: (value, index|key, collection)."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The function invoked per iteration."]}
@@ -99,12 +117,15 @@ export const flatMap = () => {
 };
 
 export const flatMapDeep = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='flatMapDeep'
-      title='flatMapDeep'
-      codeSource={source}
+      method="flatMapDeep"
+      title="flatMapDeep"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["flatMapDeep"]}
       description="This method is like _.flatMap except that it recursively flattens the mapped results."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The function invoked per iteration."]}
@@ -114,12 +135,15 @@ export const flatMapDeep = () => {
 };
 
 export const flatMapDepth = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='flatMapDepth'
-      title='flatMapDepth'
-      codeSource={source}
+      method="flatMapDepth"
+      title="flatMapDepth"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["flatMapDepth"]}
       description="This method is like _.flatMap except that it recursively flattens the mapped results up to depth times."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The function invoked per iteration.","[depth=1] (number): The maximum recursion depth."]}
@@ -129,12 +153,15 @@ export const flatMapDepth = () => {
 };
 
 export const forEach = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='forEach'
-      title='forEach'
-      codeSource={source}
+      method="forEach"
+      title="forEach"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["forEach"]}
       description="Iterates over elements of collection and invokes iteratee for each element. The iteratee is invoked with three arguments: (value, index|key, collection). Iteratee functions may exit iteration early by explicitly returning false.
 
@@ -146,12 +173,15 @@ Note: As with other &quot;Collections&quot; methods, objects with a &quot;length
 };
 
 export const forEachRight = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='forEachRight'
-      title='forEachRight'
-      codeSource={source}
+      method="forEachRight"
+      title="forEachRight"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["forEachRight"]}
       description="This method is like _.forEach except that it iterates over elements of collection from right to left."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The function invoked per iteration."]}
@@ -161,12 +191,15 @@ export const forEachRight = () => {
 };
 
 export const groupBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='groupBy'
-      title='groupBy'
-      codeSource={source}
+      method="groupBy"
+      title="groupBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["groupBy"]}
       description="Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The order of grouped values is determined by the order they occur in collection. The corresponding value of each key is an array of elements responsible for generating the key. The iteratee is invoked with one argument: (value)."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The iteratee to transform keys."]}
@@ -176,12 +209,15 @@ export const groupBy = () => {
 };
 
 export const includes = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='includes'
-      title='includes'
-      codeSource={source}
+      method="includes"
+      title="includes"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["includes"]}
       description="Checks if value is in collection. If collection is a string, it&#39;s checked for a substring of value, otherwise SameValueZero is used for equality comparisons. If fromIndex is negative, it&#39;s used as the offset from the end of collection."
       args={["collection (Array|Object|string): The collection to inspect.","value (*): The value to search for.","[fromIndex=0] (number): The index to search from."]}
@@ -191,12 +227,15 @@ export const includes = () => {
 };
 
 export const invokeMap = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='invokeMap'
-      title='invokeMap'
-      codeSource={source}
+      method="invokeMap"
+      title="invokeMap"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["invokeMap"]}
       description="Invokes the method at path of each element in collection, returning an array of the results of each invoked method. Any additional arguments are provided to each invoked method. If path is a function, it&#39;s invoked for, and this bound to, each element in collection."
       args={["collection (Array|Object): The collection to iterate over.","path (Array|Function|string): The path of the method to invoke or the function invoked per iteration.","[args] (...*): The arguments to invoke each method with."]}
@@ -206,12 +245,15 @@ export const invokeMap = () => {
 };
 
 export const keyBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='keyBy'
-      title='keyBy'
-      codeSource={source}
+      method="keyBy"
+      title="keyBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["keyBy"]}
       description="Creates an object composed of keys generated from the results of running each element of collection thru iteratee. The corresponding value of each key is the last element responsible for generating the key. The iteratee is invoked with one argument: (value)."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The iteratee to transform keys."]}
@@ -221,12 +263,15 @@ export const keyBy = () => {
 };
 
 export const map = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='map'
-      title='map'
-      codeSource={source}
+      method="map"
+      title="map"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["map"]}
       description="Creates an array of values by running each element in collection thru iteratee. The iteratee is invoked with three arguments:
 (value, index|key, collection).
@@ -242,12 +287,15 @@ ary, chunk, curry, curryRight, drop, dropRight, every, fill, invert, parseInt, r
 };
 
 export const orderBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='orderBy'
-      title='orderBy'
-      codeSource={source}
+      method="orderBy"
+      title="orderBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["orderBy"]}
       description="This method is like _.sortBy except that it allows specifying the sort orders of the iteratees to sort by. If orders is unspecified, all values are sorted in ascending order. Otherwise, specify an order of &quot;desc&quot; for descending or &quot;asc&quot; for ascending sort order of corresponding values."
       args={["collection (Array|Object): The collection to iterate over.","[iteratees=[_.identity]] (Array[]|Function[]|Object[]|string[]): The iteratees to sort by.","[orders] (string[]): The sort orders of iteratees."]}
@@ -257,12 +305,15 @@ export const orderBy = () => {
 };
 
 export const partition = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='partition'
-      title='partition'
-      codeSource={source}
+      method="partition"
+      title="partition"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["partition"]}
       description="Creates an array of elements split into two groups, the first of which contains elements predicate returns truthy for, the second of which contains elements predicate returns falsey for. The predicate is invoked with one argument: (value)."
       args={["collection (Array|Object): The collection to iterate over.","[predicate=_.identity] (Function): The function invoked per iteration."]}
@@ -272,12 +323,15 @@ export const partition = () => {
 };
 
 export const reduce = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='reduce'
-      title='reduce'
-      codeSource={source}
+      method="reduce"
+      title="reduce"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["reduce"]}
       description="Reduces collection to a value which is the accumulated result of running each element in collection thru iteratee, where each successive invocation is supplied the return value of the previous. If accumulator is not given, the first element of collection is used as the initial value. The iteratee is invoked with four arguments:
 (accumulator, value, index|key, collection).
@@ -293,12 +347,15 @@ assign, defaults, defaultsDeep, includes, merge, orderBy, and sortBy"
 };
 
 export const reduceRight = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='reduceRight'
-      title='reduceRight'
-      codeSource={source}
+      method="reduceRight"
+      title="reduceRight"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["reduceRight"]}
       description="This method is like _.reduce except that it iterates over elements of collection from right to left."
       args={["collection (Array|Object): The collection to iterate over.","[iteratee=_.identity] (Function): The function invoked per iteration.","[accumulator] (*): The initial value."]}
@@ -308,12 +365,15 @@ export const reduceRight = () => {
 };
 
 export const reject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='reject'
-      title='reject'
-      codeSource={source}
+      method="reject"
+      title="reject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["reject"]}
       description="The opposite of _.filter; this method returns the elements of collection that predicate does not return truthy for."
       args={["collection (Array|Object): The collection to iterate over.","[predicate=_.identity] (Function): The function invoked per iteration."]}
@@ -323,12 +383,15 @@ export const reject = () => {
 };
 
 export const sample = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='sample'
-      title='sample'
-      codeSource={source}
+      method="sample"
+      title="sample"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["sample"]}
       description="Gets a random element from collection."
       args={["collection (Array|Object): The collection to sample."]}
@@ -338,12 +401,15 @@ export const sample = () => {
 };
 
 export const sampleSize = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='sampleSize'
-      title='sampleSize'
-      codeSource={source}
+      method="sampleSize"
+      title="sampleSize"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["sampleSize"]}
       description="Gets n random elements at unique keys from collection up to the size of collection."
       args={["collection (Array|Object): The collection to sample.","[n=1] (number): The number of elements to sample."]}
@@ -353,12 +419,15 @@ export const sampleSize = () => {
 };
 
 export const shuffle = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='shuffle'
-      title='shuffle'
-      codeSource={source}
+      method="shuffle"
+      title="shuffle"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["shuffle"]}
       description="Creates an array of shuffled values, using a version of the Fisher-Yates shuffle."
       args={["collection (Array|Object): The collection to shuffle."]}
@@ -368,12 +437,15 @@ export const shuffle = () => {
 };
 
 export const size = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='size'
-      title='size'
-      codeSource={source}
+      method="size"
+      title="size"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["size"]}
       description="Gets the size of collection by returning its length for array-like values or the number of own enumerable string keyed properties for objects."
       args={["collection (Array|Object|string): The collection to inspect."]}
@@ -383,12 +455,15 @@ export const size = () => {
 };
 
 export const some = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='some'
-      title='some'
-      codeSource={source}
+      method="some"
+      title="some"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["some"]}
       description="Checks if predicate returns truthy for any element of collection. Iteration is stopped once predicate returns truthy. The predicate is invoked with three arguments: (value, index|key, collection)."
       args={["collection (Array|Object): The collection to iterate over.","[predicate=_.identity] (Function): The function invoked per iteration."]}
@@ -398,12 +473,15 @@ export const some = () => {
 };
 
 export const sortBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='sortBy'
-      title='sortBy'
-      codeSource={source}
+      method="sortBy"
+      title="sortBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["sortBy"]}
       description="Creates an array of elements, sorted in ascending order by the results of running each element in a collection thru each iteratee. This method performs a stable sort, that is, it preserves the original sort order of equal elements. The iteratees are invoked with one argument: (value)."
       args={["collection (Array|Object): The collection to iterate over.","[iteratees=[_.identity]] (...(Function|Function[])): The iteratees to sort by."]}

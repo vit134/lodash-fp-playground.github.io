@@ -5,12 +5,15 @@ export default { title: 'Lang' };
 
 
 export const castArray = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='castArray'
-      title='castArray'
-      codeSource={source}
+      method="castArray"
+      title="castArray"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["castArray"]}
       description="Casts value as an array if it&#39;s not one."
       args={["value (*): The value to inspect."]}
@@ -20,12 +23,15 @@ export const castArray = () => {
 };
 
 export const clone = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='clone'
-      title='clone'
-      codeSource={source}
+      method="clone"
+      title="clone"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["clone"]}
       description="Creates a shallow clone of value.
 
@@ -37,12 +43,15 @@ Note: This method is loosely based on the structured clone algorithm and support
 };
 
 export const cloneDeep = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='cloneDeep'
-      title='cloneDeep'
-      codeSource={source}
+      method="cloneDeep"
+      title="cloneDeep"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["cloneDeep"]}
       description="This method is like _.clone except that it recursively clones value."
       args={["value (*): The value to recursively clone."]}
@@ -52,12 +61,15 @@ export const cloneDeep = () => {
 };
 
 export const cloneDeepWith = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='cloneDeepWith'
-      title='cloneDeepWith'
-      codeSource={source}
+      method="cloneDeepWith"
+      title="cloneDeepWith"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["cloneDeepWith"]}
       description="This method is like _.cloneWith except that it recursively clones value."
       args={["value (*): The value to recursively clone.","[customizer] (Function): The function to customize cloning."]}
@@ -67,12 +79,15 @@ export const cloneDeepWith = () => {
 };
 
 export const cloneWith = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='cloneWith'
-      title='cloneWith'
-      codeSource={source}
+      method="cloneWith"
+      title="cloneWith"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["cloneWith"]}
       description="This method is like _.clone except that it accepts customizer which is invoked to produce the cloned value. If customizer returns undefined, cloning is handled by the method instead. The customizer is invoked with up to four arguments; (value [, index|key, object, stack])."
       args={["value (*): The value to clone.","[customizer] (Function): The function to customize cloning."]}
@@ -82,12 +97,15 @@ export const cloneWith = () => {
 };
 
 export const conformsTo = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='conformsTo'
-      title='conformsTo'
-      codeSource={source}
+      method="conformsTo"
+      title="conformsTo"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["conformsTo"]}
       description="Checks if object conforms to source by invoking the predicate properties of source with the corresponding property values of object.
 
@@ -99,12 +117,15 @@ Note: This method is equivalent to _.conforms when source is partially applied."
 };
 
 export const eq = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='eq'
-      title='eq'
-      codeSource={source}
+      method="eq"
+      title="eq"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["eq"]}
       description="Performs a SameValueZero comparison between two values to determine if they are equivalent."
       args={["value (*): The value to compare.","other (*): The other value to compare."]}
@@ -114,12 +135,15 @@ export const eq = () => {
 };
 
 export const gt = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='gt'
-      title='gt'
-      codeSource={source}
+      method="gt"
+      title="gt"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["gt"]}
       description="Checks if value is greater than other."
       args={["value (*): The value to compare.","other (*): The other value to compare."]}
@@ -129,12 +153,15 @@ export const gt = () => {
 };
 
 export const gte = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='gte'
-      title='gte'
-      codeSource={source}
+      method="gte"
+      title="gte"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["gte"]}
       description="Checks if value is greater than or equal to other."
       args={["value (*): The value to compare.","other (*): The other value to compare."]}
@@ -144,12 +171,15 @@ export const gte = () => {
 };
 
 export const isArguments = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isArguments'
-      title='isArguments'
-      codeSource={source}
+      method="isArguments"
+      title="isArguments"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isArguments"]}
       description="Checks if value is likely an arguments object."
       args={["value (*): The value to check."]}
@@ -159,12 +189,15 @@ export const isArguments = () => {
 };
 
 export const isArray = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isArray'
-      title='isArray'
-      codeSource={source}
+      method="isArray"
+      title="isArray"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isArray"]}
       description="Checks if value is classified as an Array object."
       args={["value (*): The value to check."]}
@@ -174,12 +207,15 @@ export const isArray = () => {
 };
 
 export const isArrayBuffer = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isArrayBuffer'
-      title='isArrayBuffer'
-      codeSource={source}
+      method="isArrayBuffer"
+      title="isArrayBuffer"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isArrayBuffer"]}
       description="Checks if value is classified as an ArrayBuffer object."
       args={["value (*): The value to check."]}
@@ -189,12 +225,15 @@ export const isArrayBuffer = () => {
 };
 
 export const isArrayLike = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isArrayLike'
-      title='isArrayLike'
-      codeSource={source}
+      method="isArrayLike"
+      title="isArrayLike"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isArrayLike"]}
       description="Checks if value is array-like. A value is considered array-like if it&#39;s not a function and has a value.length that&#39;s an integer greater than or equal to 0 and less than or equal to Number.MAX_SAFE_INTEGER."
       args={["value (*): The value to check."]}
@@ -204,12 +243,15 @@ export const isArrayLike = () => {
 };
 
 export const isArrayLikeObject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isArrayLikeObject'
-      title='isArrayLikeObject'
-      codeSource={source}
+      method="isArrayLikeObject"
+      title="isArrayLikeObject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isArrayLikeObject"]}
       description="This method is like _.isArrayLike except that it also checks if value is an object."
       args={["value (*): The value to check."]}
@@ -219,12 +261,15 @@ export const isArrayLikeObject = () => {
 };
 
 export const isBoolean = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isBoolean'
-      title='isBoolean'
-      codeSource={source}
+      method="isBoolean"
+      title="isBoolean"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isBoolean"]}
       description="Checks if value is classified as a boolean primitive or object."
       args={["value (*): The value to check."]}
@@ -234,12 +279,15 @@ export const isBoolean = () => {
 };
 
 export const isBuffer = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isBuffer'
-      title='isBuffer'
-      codeSource={source}
+      method="isBuffer"
+      title="isBuffer"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isBuffer"]}
       description="Checks if value is a buffer."
       args={["value (*): The value to check."]}
@@ -249,12 +297,15 @@ export const isBuffer = () => {
 };
 
 export const isDate = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isDate'
-      title='isDate'
-      codeSource={source}
+      method="isDate"
+      title="isDate"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isDate"]}
       description="Checks if value is classified as a Date object."
       args={["value (*): The value to check."]}
@@ -264,12 +315,15 @@ export const isDate = () => {
 };
 
 export const isElement = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isElement'
-      title='isElement'
-      codeSource={source}
+      method="isElement"
+      title="isElement"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isElement"]}
       description="Checks if value is likely a DOM element."
       args={["value (*): The value to check."]}
@@ -279,12 +333,15 @@ export const isElement = () => {
 };
 
 export const isEmpty = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isEmpty'
-      title='isEmpty'
-      codeSource={source}
+      method="isEmpty"
+      title="isEmpty"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isEmpty"]}
       description="Checks if value is an empty object, collection, map, or set.
 
@@ -298,12 +355,15 @@ Array-like values such as arguments objects, arrays, buffers, strings, or jQuery
 };
 
 export const isEqual = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isEqual'
-      title='isEqual'
-      codeSource={source}
+      method="isEqual"
+      title="isEqual"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isEqual"]}
       description="Performs a deep comparison between two values to determine if they are equivalent.
 
@@ -315,12 +375,15 @@ Note: This method supports comparing arrays, array buffers, booleans, date objec
 };
 
 export const isEqualWith = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isEqualWith'
-      title='isEqualWith'
-      codeSource={source}
+      method="isEqualWith"
+      title="isEqualWith"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isEqualWith"]}
       description="This method is like _.isEqual except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead. The customizer is invoked with up to six arguments: (objValue, othValue [, index|key, object, other, stack])."
       args={["value (*): The value to compare.","other (*): The other value to compare.","[customizer] (Function): The function to customize comparisons."]}
@@ -330,12 +393,15 @@ export const isEqualWith = () => {
 };
 
 export const isError = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isError'
-      title='isError'
-      codeSource={source}
+      method="isError"
+      title="isError"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isError"]}
       description="Checks if value is an Error, EvalError, RangeError, ReferenceError, SyntaxError, TypeError, or URIError object."
       args={["value (*): The value to check."]}
@@ -345,12 +411,15 @@ export const isError = () => {
 };
 
 export const isFinite = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isFinite'
-      title='isFinite'
-      codeSource={source}
+      method="isFinite"
+      title="isFinite"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isFinite"]}
       description="Checks if value is a finite primitive number.
 
@@ -362,12 +431,15 @@ Note: This method is based on Number.isFinite."
 };
 
 export const isFunction = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isFunction'
-      title='isFunction'
-      codeSource={source}
+      method="isFunction"
+      title="isFunction"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isFunction"]}
       description="Checks if value is classified as a Function object."
       args={["value (*): The value to check."]}
@@ -377,12 +449,15 @@ export const isFunction = () => {
 };
 
 export const isInteger = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isInteger'
-      title='isInteger'
-      codeSource={source}
+      method="isInteger"
+      title="isInteger"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isInteger"]}
       description="Checks if value is an integer.
 
@@ -394,12 +469,15 @@ Note: This method is based on Number.isInteger."
 };
 
 export const isLength = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isLength'
-      title='isLength'
-      codeSource={source}
+      method="isLength"
+      title="isLength"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isLength"]}
       description="Checks if value is a valid array-like length.
 
@@ -411,12 +489,15 @@ Note: This method is loosely based on ToLength."
 };
 
 export const isMap = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isMap'
-      title='isMap'
-      codeSource={source}
+      method="isMap"
+      title="isMap"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isMap"]}
       description="Checks if value is classified as a Map object."
       args={["value (*): The value to check."]}
@@ -426,12 +507,15 @@ export const isMap = () => {
 };
 
 export const isMatch = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isMatch'
-      title='isMatch'
-      codeSource={source}
+      method="isMatch"
+      title="isMatch"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isMatch"]}
       description="Performs a partial deep comparison between object and source to determine if object contains equivalent property values.
 
@@ -445,12 +529,15 @@ Partial comparisons will match empty array and empty object source values agains
 };
 
 export const isMatchWith = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isMatchWith'
-      title='isMatchWith'
-      codeSource={source}
+      method="isMatchWith"
+      title="isMatchWith"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isMatchWith"]}
       description="This method is like _.isMatch except that it accepts customizer which is invoked to compare values. If customizer returns undefined, comparisons are handled by the method instead. The customizer is invoked with five arguments: (objValue, srcValue, index|key, object, source)."
       args={["object (Object): The object to inspect.","source (Object): The object of property values to match.","[customizer] (Function): The function to customize comparisons."]}
@@ -460,12 +547,15 @@ export const isMatchWith = () => {
 };
 
 export const isNaN = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isNaN'
-      title='isNaN'
-      codeSource={source}
+      method="isNaN"
+      title="isNaN"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isNaN"]}
       description="Checks if value is NaN.
 
@@ -477,12 +567,15 @@ Note: This method is based on Number.isNaN and is not the same as global isNaN w
 };
 
 export const isNative = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isNative'
-      title='isNative'
-      codeSource={source}
+      method="isNative"
+      title="isNative"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isNative"]}
       description="Checks if value is a pristine native function.
 
@@ -494,12 +587,15 @@ Note: This method can&#39;t reliably detect native functions in the presence of 
 };
 
 export const isNil = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isNil'
-      title='isNil'
-      codeSource={source}
+      method="isNil"
+      title="isNil"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isNil"]}
       description="Checks if value is null or undefined."
       args={["value (*): The value to check."]}
@@ -509,12 +605,15 @@ export const isNil = () => {
 };
 
 export const isNull = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isNull'
-      title='isNull'
-      codeSource={source}
+      method="isNull"
+      title="isNull"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isNull"]}
       description="Checks if value is null."
       args={["value (*): The value to check."]}
@@ -524,12 +623,15 @@ export const isNull = () => {
 };
 
 export const isNumber = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isNumber'
-      title='isNumber'
-      codeSource={source}
+      method="isNumber"
+      title="isNumber"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isNumber"]}
       description="Checks if value is classified as a Number primitive or object.
 
@@ -541,12 +643,15 @@ Note: To exclude Infinity, -Infinity, and NaN, which are classified as numbers, 
 };
 
 export const isObject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isObject'
-      title='isObject'
-      codeSource={source}
+      method="isObject"
+      title="isObject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isObject"]}
       description="Checks if value is the language type of Object. (e.g. arrays, functions, objects, regexes, new Number(0), and new String(&#39;&#39;))"
       args={["value (*): The value to check."]}
@@ -556,12 +661,15 @@ export const isObject = () => {
 };
 
 export const isObjectLike = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isObjectLike'
-      title='isObjectLike'
-      codeSource={source}
+      method="isObjectLike"
+      title="isObjectLike"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isObjectLike"]}
       description="Checks if value is object-like. A value is object-like if it&#39;s not null and has a typeof result of &quot;object&quot;."
       args={["value (*): The value to check."]}
@@ -571,12 +679,15 @@ export const isObjectLike = () => {
 };
 
 export const isPlainObject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isPlainObject'
-      title='isPlainObject'
-      codeSource={source}
+      method="isPlainObject"
+      title="isPlainObject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isPlainObject"]}
       description="Checks if value is a plain object, that is, an object created by the Object constructor or one with a [[Prototype]] of null."
       args={["value (*): The value to check."]}
@@ -586,12 +697,15 @@ export const isPlainObject = () => {
 };
 
 export const isRegExp = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isRegExp'
-      title='isRegExp'
-      codeSource={source}
+      method="isRegExp"
+      title="isRegExp"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isRegExp"]}
       description="Checks if value is classified as a RegExp object."
       args={["value (*): The value to check."]}
@@ -601,12 +715,15 @@ export const isRegExp = () => {
 };
 
 export const isSafeInteger = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isSafeInteger'
-      title='isSafeInteger'
-      codeSource={source}
+      method="isSafeInteger"
+      title="isSafeInteger"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isSafeInteger"]}
       description="Checks if value is a safe integer. An integer is safe if it&#39;s an IEEE-754 double precision number which isn&#39;t the result of a rounded unsafe integer.
 
@@ -618,12 +735,15 @@ Note: This method is based on Number.isSafeInteger."
 };
 
 export const isSet = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isSet'
-      title='isSet'
-      codeSource={source}
+      method="isSet"
+      title="isSet"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isSet"]}
       description="Checks if value is classified as a Set object."
       args={["value (*): The value to check."]}
@@ -633,12 +753,15 @@ export const isSet = () => {
 };
 
 export const isString = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isString'
-      title='isString'
-      codeSource={source}
+      method="isString"
+      title="isString"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isString"]}
       description="Checks if value is classified as a String primitive or object."
       args={["value (*): The value to check."]}
@@ -648,12 +771,15 @@ export const isString = () => {
 };
 
 export const isSymbol = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isSymbol'
-      title='isSymbol'
-      codeSource={source}
+      method="isSymbol"
+      title="isSymbol"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isSymbol"]}
       description="Checks if value is classified as a Symbol primitive or object."
       args={["value (*): The value to check."]}
@@ -663,12 +789,15 @@ export const isSymbol = () => {
 };
 
 export const isTypedArray = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isTypedArray'
-      title='isTypedArray'
-      codeSource={source}
+      method="isTypedArray"
+      title="isTypedArray"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isTypedArray"]}
       description="Checks if value is classified as a typed array."
       args={["value (*): The value to check."]}
@@ -678,12 +807,15 @@ export const isTypedArray = () => {
 };
 
 export const isUndefined = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isUndefined'
-      title='isUndefined'
-      codeSource={source}
+      method="isUndefined"
+      title="isUndefined"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isUndefined"]}
       description="Checks if value is undefined."
       args={["value (*): The value to check."]}
@@ -693,12 +825,15 @@ export const isUndefined = () => {
 };
 
 export const isWeakMap = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isWeakMap'
-      title='isWeakMap'
-      codeSource={source}
+      method="isWeakMap"
+      title="isWeakMap"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isWeakMap"]}
       description="Checks if value is classified as a WeakMap object."
       args={["value (*): The value to check."]}
@@ -708,12 +843,15 @@ export const isWeakMap = () => {
 };
 
 export const isWeakSet = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='isWeakSet'
-      title='isWeakSet'
-      codeSource={source}
+      method="isWeakSet"
+      title="isWeakSet"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["isWeakSet"]}
       description="Checks if value is classified as a WeakSet object."
       args={["value (*): The value to check."]}
@@ -723,12 +861,15 @@ export const isWeakSet = () => {
 };
 
 export const lt = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='lt'
-      title='lt'
-      codeSource={source}
+      method="lt"
+      title="lt"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["lt"]}
       description="Checks if value is less than other."
       args={["value (*): The value to compare.","other (*): The other value to compare."]}
@@ -738,12 +879,15 @@ export const lt = () => {
 };
 
 export const lte = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='lte'
-      title='lte'
-      codeSource={source}
+      method="lte"
+      title="lte"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["lte"]}
       description="Checks if value is less than or equal to other."
       args={["value (*): The value to compare.","other (*): The other value to compare."]}
@@ -753,12 +897,15 @@ export const lte = () => {
 };
 
 export const toArray = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toArray'
-      title='toArray'
-      codeSource={source}
+      method="toArray"
+      title="toArray"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toArray"]}
       description="Converts value to an array."
       args={["value (*): The value to convert."]}
@@ -768,12 +915,15 @@ export const toArray = () => {
 };
 
 export const toFinite = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toFinite'
-      title='toFinite'
-      codeSource={source}
+      method="toFinite"
+      title="toFinite"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toFinite"]}
       description="Converts value to a finite number."
       args={["value (*): The value to convert."]}
@@ -783,12 +933,15 @@ export const toFinite = () => {
 };
 
 export const toInteger = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toInteger'
-      title='toInteger'
-      codeSource={source}
+      method="toInteger"
+      title="toInteger"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toInteger"]}
       description="Converts value to an integer.
 
@@ -800,12 +953,15 @@ Note: This method is loosely based on ToInteger."
 };
 
 export const toLength = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toLength'
-      title='toLength'
-      codeSource={source}
+      method="toLength"
+      title="toLength"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toLength"]}
       description="Converts value to an integer suitable for use as the length of an array-like object.
 
@@ -817,12 +973,15 @@ Note: This method is based on ToLength."
 };
 
 export const toNumber = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toNumber'
-      title='toNumber'
-      codeSource={source}
+      method="toNumber"
+      title="toNumber"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toNumber"]}
       description="Converts value to a number."
       args={["value (*): The value to process."]}
@@ -832,12 +991,15 @@ export const toNumber = () => {
 };
 
 export const toPlainObject = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toPlainObject'
-      title='toPlainObject'
-      codeSource={source}
+      method="toPlainObject"
+      title="toPlainObject"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toPlainObject"]}
       description="Converts value to a plain object flattening inherited enumerable string keyed properties of value to own properties of the plain object."
       args={["value (*): The value to convert."]}
@@ -847,12 +1009,15 @@ export const toPlainObject = () => {
 };
 
 export const toSafeInteger = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toSafeInteger'
-      title='toSafeInteger'
-      codeSource={source}
+      method="toSafeInteger"
+      title="toSafeInteger"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toSafeInteger"]}
       description="Converts value to a safe integer. A safe integer can be compared and represented correctly."
       args={["value (*): The value to convert."]}
@@ -862,12 +1027,15 @@ export const toSafeInteger = () => {
 };
 
 export const toString = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='toString'
-      title='toString'
-      codeSource={source}
+      method="toString"
+      title="toString"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["toString"]}
       description="Converts value to a string. An empty string is returned for null and undefined values. The sign of -0 is preserved."
       args={["value (*): The value to convert."]}

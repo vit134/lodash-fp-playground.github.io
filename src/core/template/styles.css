@@ -10,7 +10,14 @@
 }
 
 .code-source {
+  display: flex;
   padding: 0 40px;
+  margin-left: -40px;
+}
+
+.code-source-column {
+  flex: none;
+  width: 50%;
 }
 
 .row {

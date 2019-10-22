@@ -5,12 +5,15 @@ export default { title: 'Math' };
 
 
 export const add = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='add'
-      title='add'
-      codeSource={source}
+      method="add"
+      title="add"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["add"]}
       description="Adds two numbers."
       args={["augend (number): The first number in an addition.","addend (number): The second number in an addition."]}
@@ -20,12 +23,15 @@ export const add = () => {
 };
 
 export const ceil = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='ceil'
-      title='ceil'
-      codeSource={source}
+      method="ceil"
+      title="ceil"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["ceil"]}
       description="Computes number rounded up to precision."
       args={["number (number): The number to round up.","[precision=0] (number): The precision to round up to."]}
@@ -35,12 +41,15 @@ export const ceil = () => {
 };
 
 export const divide = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='divide'
-      title='divide'
-      codeSource={source}
+      method="divide"
+      title="divide"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["divide"]}
       description="Divide two numbers."
       args={["dividend (number): The first number in a division.","divisor (number): The second number in a division."]}
@@ -50,12 +59,15 @@ export const divide = () => {
 };
 
 export const floor = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='floor'
-      title='floor'
-      codeSource={source}
+      method="floor"
+      title="floor"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["floor"]}
       description="Computes number rounded down to precision."
       args={["number (number): The number to round down.","[precision=0] (number): The precision to round down to."]}
@@ -65,12 +77,15 @@ export const floor = () => {
 };
 
 export const max = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='max'
-      title='max'
-      codeSource={source}
+      method="max"
+      title="max"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["max"]}
       description="Computes the maximum value of array. If array is empty or falsey, undefined is returned."
       args={["array (Array): The array to iterate over."]}
@@ -80,12 +95,15 @@ export const max = () => {
 };
 
 export const maxBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='maxBy'
-      title='maxBy'
-      codeSource={source}
+      method="maxBy"
+      title="maxBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["maxBy"]}
       description="This method is like _.max except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked. The iteratee is invoked with one argument: (value)."
       args={["array (Array): The array to iterate over.","[iteratee=_.identity] (Function): The iteratee invoked per element."]}
@@ -95,12 +113,15 @@ export const maxBy = () => {
 };
 
 export const mean = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='mean'
-      title='mean'
-      codeSource={source}
+      method="mean"
+      title="mean"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["mean"]}
       description="Computes the mean of the values in array."
       args={["array (Array): The array to iterate over."]}
@@ -110,12 +131,15 @@ export const mean = () => {
 };
 
 export const meanBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='meanBy'
-      title='meanBy'
-      codeSource={source}
+      method="meanBy"
+      title="meanBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["meanBy"]}
       description="This method is like _.mean except that it accepts iteratee which is invoked for each element in array to generate the value to be averaged. The iteratee is invoked with one argument: (value)."
       args={["array (Array): The array to iterate over.","[iteratee=_.identity] (Function): The iteratee invoked per element."]}
@@ -125,12 +149,15 @@ export const meanBy = () => {
 };
 
 export const min = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='min'
-      title='min'
-      codeSource={source}
+      method="min"
+      title="min"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["min"]}
       description="Computes the minimum value of array. If array is empty or falsey, undefined is returned."
       args={["array (Array): The array to iterate over."]}
@@ -140,12 +167,15 @@ export const min = () => {
 };
 
 export const minBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='minBy'
-      title='minBy'
-      codeSource={source}
+      method="minBy"
+      title="minBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["minBy"]}
       description="This method is like _.min except that it accepts iteratee which is invoked for each element in array to generate the criterion by which the value is ranked. The iteratee is invoked with one argument: (value)."
       args={["array (Array): The array to iterate over.","[iteratee=_.identity] (Function): The iteratee invoked per element."]}
@@ -155,12 +185,15 @@ export const minBy = () => {
 };
 
 export const multiply = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='multiply'
-      title='multiply'
-      codeSource={source}
+      method="multiply"
+      title="multiply"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["multiply"]}
       description="Multiply two numbers."
       args={["multiplier (number): The first number in a multiplication.","multiplicand (number): The second number in a multiplication."]}
@@ -170,12 +203,15 @@ export const multiply = () => {
 };
 
 export const round = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='round'
-      title='round'
-      codeSource={source}
+      method="round"
+      title="round"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["round"]}
       description="Computes number rounded to precision."
       args={["number (number): The number to round.","[precision=0] (number): The precision to round to."]}
@@ -185,12 +221,15 @@ export const round = () => {
 };
 
 export const subtract = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='subtract'
-      title='subtract'
-      codeSource={source}
+      method="subtract"
+      title="subtract"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["subtract"]}
       description="Subtract two numbers."
       args={["minuend (number): The first number in a subtraction.","subtrahend (number): The second number in a subtraction."]}
@@ -200,12 +239,15 @@ export const subtract = () => {
 };
 
 export const sum = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='sum'
-      title='sum'
-      codeSource={source}
+      method="sum"
+      title="sum"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["sum"]}
       description="Computes the sum of the values in array."
       args={["array (Array): The array to iterate over."]}
@@ -215,12 +257,15 @@ export const sum = () => {
 };
 
 export const sumBy = () => {
-  const source = `// source here`;
+  const lodashSource = `// lodash source here`;
+const fpSource = `// fp source here`;
+
   return (
     <Template
-      method='sumBy'
-      title='sumBy'
-      codeSource={source}
+      method="sumBy"
+      title="sumBy"
+      lodashSource={lodashSource}
+      fpSource={fpSource}
       dependencies={["sumBy"]}
       description="This method is like _.sum except that it accepts iteratee which is invoked for each element in array to generate the value to be summed. The iteratee is invoked with one argument: (value)."
       args={["array (Array): The array to iterate over.","[iteratee=_.identity] (Function): The iteratee invoked per element."]}
